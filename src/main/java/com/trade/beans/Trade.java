@@ -115,7 +115,7 @@ public class Trade {
                 ", fX Rate = " + bdFxRate +
                 ", Price Per Unit = " + bdPrcPerUnit +
                 ", Total Amount = " + bdTrdAmnt +
-                '}';
+                "}";
     }//End of toString method
     
 }//End of Trade class
