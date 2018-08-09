@@ -105,7 +105,7 @@ public class Trade {
 	@Override
     public String toString() {
         return "Trade {" +
-                "Entity = '" + strEntity +
+                "Entity = " + strEntity +
                 ", Flag = " + strFlag +
                 ", Currency = " + strCurr +
                 ", Instruction Date = " + instrDate +
