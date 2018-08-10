@@ -35,7 +35,7 @@ import com.trade.executor.TradeSalesSimulator;
  * in this exercise it is being fetched from in memory and stored into an ArrayList
  */
 public class TradeDAO {
-	private static List<Trade> alTrades;
+	private List<Trade> alTrades;
 	public List<Trade> getTrades() throws ParseException {
 		TradeSalesSimulator objSim = new TradeSalesSimulator();
 		alTrades = objSim.getTradeDetails();
